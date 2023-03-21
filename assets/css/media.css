@@ -1,0 +1,160 @@
+@media (min-width: 952px) {
+    .container {
+      width: 970px;
+    }
+    .main {
+      width: 900px;
+      color:  #b9b9b9;
+      font-size: 17px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+     }
+     .image{
+      background: url(../imgs/zaki3.png) no-repeat ;
+      background-size:contain;
+      padding: 200px;
+      /* height: calc(100vh - 80px); */
+
+      width: 400px;
+      margin: 20PX;
+
+    }
+
+  }
+
+
+
+
+
+  /* medium */
+  @media (min-width: 800px) {
+    .container {
+      width: 800px;
+    }
+    .main {
+      width: 100%;
+      color: #b9b9b9;
+      font-size: 17px;
+      display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: auto;
+
+     }
+     .image{
+      background: url(../imgs/zaki3.png) no-repeat ;
+      background-size:contain;
+      padding: 200px;
+      /* height: calc(100vh - 80px); */
+      width: 400px;
+      margin-left: -92PX;
+    margin-top: -100px;
+
+    }
+    nav ul {
+        margin-top: -90px;
+        float: right;
+        margin-right: 20px;
+
+      }
+
+    }
+
+
+
+
+
+    @media (max-width: 858px)
+{
+  .carousel{
+    width: 100px;
+ height: 200px;
+ }
+  .checkbtn{
+    display: block;/*for appear checkbtn*/
+  }
+  .main {
+    width: 1000px;
+    color:  #b9b9b9;
+    font-size: 17px;
+    display: inline;
+      justify-content: space-between;
+      align-items: center;
+
+   }
+   .image{
+    background: url(../imgs/zaki3.png)no-repeat ;
+    background-size:contain;
+    padding: 200px;
+    /* height: calc(100vh - 80px); */
+    width: 400px;
+    margin: 20PX;
+
+  }
+  ul{
+    position:absolute;/**? make the icon appear from above */
+    width: 100%;
+    height: 100vh;
+    background-color: #1d0411bf;
+    /* background: #411530; */
+    top: 80px;
+    left: -100%; /*delete menu */
+    text-align: left;
+    transition: all .8s;/*new*/
+
+
+  }
+  nav ul li{
+    display: block;
+  }
+  nav ul li a{
+    font-size: 20px;
+
+  }
+ a:hover, a.active {
+    background: none;
+     color: #D07000;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+}
+
+
+
+
+
+
+@media  (max-width:952px) {/*properties in  smallest from 952  */
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a {
+      font-size: 16px;
+    }
+    .main {
+      width: 700px;
+      color:  #b9b9b9;
+      font-size: 17px;
+      display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+     }
+     .image{
+      background: url(../imgs/zaki3.png) no-repeat ;
+      background-size:contain;
+      padding: 200px;
+      /* height: calc(100vh - 80px); */
+      width: 400px;
+      margin: 20PX;
+
+    }
+
+
+
+  }
